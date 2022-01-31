@@ -1,0 +1,158 @@
+.tutorr {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+.titlecontent{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.titlecontent h3 {
+    font-size: 25px;
+    font-family: 'Lato';
+    font-weight: 660px;
+    color: #223844;
+
+}
+.titlecont{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.titlecont p{
+    font-size: 18px;
+    font-family: 'Lato';
+    color: #223844;
+
+}
+.contentbar{
+    border: 1px solid #92B5C8;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.squarecont{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    height: 60px;
+    background-color: #9ba2a8;
+    border-radius: 20px;
+}
+
+.squarecont .bts1{
+    padding: 20px;
+    float: left;
+}
+
+.text-title h4{
+    font-family: 'Lato';
+    font-size: 25px;
+    font-weight: 700px;
+    padding: 20px;
+    color: #223844;
+}
+  .text-harga h5{
+ 
+    font-family: 'Lato';
+    font-size: 25px;
+    font-weight: 700px;
+    color: #223844;
+   
+   
+}
+
+.recruiter th{
+    font-size: 20px;
+    color: #223844;
+  
+}
+
+.rekening{
+    margin-bottom: 40px;
+}
+.rekening h6{
+    font-family: 'Lato';
+    font-weight: 300px;
+    font-size: 20px;
+    color: #223844;
+}
+
+.button-form{
+    float: right;
+    background-color: #F1CA6D;
+    width: 170px;
+    height: 48px;
+    border-radius: 10px ;
+    
+}
+.button-textform {
+    font-weight: 660px;
+    color: #223844;
+    font-family: 'Lato';
+}
+
+.link {
+   
+    font-weight: 660px;
+    color: #223844;
+    font-family: 'Lato';
+}
+.dropdown-select:focus {
+    z-index: 3;
+    width: 100%;
+    color: #394349;
+    outline: 2px solid #49aff2;
+    outline: 2px solid -webkit-focus-ring-color;
+    outline-offset: -2px;
+  }
+  
+  .dropdown-select > option {
+    margin: 3px;
+    padding: 6px 8px;
+    text-shadow: none;
+    background: #f2f2f2;
+    border-radius: 3px;
+    cursor: pointer;
+    color: #223844;
+  }
+  
+  /* Fix for IE 8 putting the arrows behind the select element. */
+  
+  .lt-ie9 .dropdown {
+    z-index: 1;
+  }
+  
+  .lt-ie9 .dropdown-select {
+    z-index: -1;
+  }
+  
+  .lt-ie9 .dropdown-select:focus {
+    z-index: 3;
+  }
+ 
+ 
+  .table thead tr th {
+    text-transform: uppercase;
+    font-size: 0.875em;
+}
+.table thead tr th {
+    border-bottom: 2px solid #92B5C8;
+    border-top: none;
+}
+.table tbody tr td:first-child {
+    font-size: 1.125em;
+    font-weight: 300;
+}
+.table tbody tr td {
+    font-size: 0.875em;
+    vertical-align: middle;
+    border-top: 1px solid #e7ebee;
+    padding: 12px 8px;
+}
+a:hover{
+text-decoration:none;
+}
+ 

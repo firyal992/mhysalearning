@@ -1,0 +1,156 @@
+.body {
+    font-family: "Lato";
+}
+
+.our-speaker {
+    display: inline-block;
+    margin-bottom: 50px;
+
+    text-align: center;
+    border-radius: 2%;
+    border: 1px solid #f1ca6d;
+    background-color: #ffffff;
+    margin: 5px 5px 5px 5px;
+}
+
+.our-speaker:hover {
+    box-shadow: 3px 5px 4px 5px #bdbdbd;
+}
+
+.our-speaker .speaker-pic {
+    margin: 50px 5px 25px 5px;
+}
+
+.our-speaker .speaker-pic img {
+    width: 160px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.our-speaker .speaker-social {
+    width: 100%;
+    padding: 0;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.our-speaker .speaker-social li {
+    display: inline;
+}
+
+.our-speaker .speaker-social li a {
+    padding: 10px;
+    font-size: 20px;
+    margin: 5px 5px 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.our-speaker .speaker-social li a:hover {
+    color: #f1ca6d;
+}
+
+.our-speaker .speaker-data {
+    text-align: center;
+    font-family: "Lato";
+}
+
+.our-speaker .speaker-data h5 a {
+    font-size: 22px;
+    color: #223844;
+}
+
+.our-speaker .speaker-data h4 {
+    font-size: 30px;
+    color: #f1ca6d;
+}
+
+.our-speaker .speaker-data h6 {
+    font-size: 18px;
+}
+
+.our-speaker .speaker-details {
+    margin: 10px 60px 10px 60px;
+}
+
+.our-speaker .speaker-details p {
+    font-family: "Lato";
+    font-size: 18px;
+}
+
+.fa-styling {
+    color: #ffff;
+    background: #223844;
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+
+    /* text-align: center;
+    line-height: 2em;
+    vertical-align: middle;
+    padding: 30px; */
+}
+
+.our-services {
+    display: inline-block;
+    margin-bottom: 50px;
+
+    text-align: center;
+    border-radius: 3%;
+
+    width: 550px;
+    height: 600px;
+
+    position: relative;
+}
+
+.our-services:hover {
+    box-shadow: 3px 5px 4px 5px #c4c0c0;
+}
+
+.our-services .services-details {
+    margin-top: 60%;
+    margin-bottom: 10%;
+}
+
+.our-services .services-details h3 {
+    color: #ffff;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+
+    font-family: "Lato";
+}
+
+.our-services .services-details h5 {
+    color: #ffff;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+
+    font-family: "Lato";
+}
+
+.our-services button {
+    width: 199.06px;
+    height: 60px;
+    left: 299px;
+    top: 4492px;
+
+    background: #ffffff;
+    border-radius: 12px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #223844;
+
+    font-family: "Lato";
+}
+
+.our-services button:hover {
+    color: #ffffff;
+    background: #223844;
+}

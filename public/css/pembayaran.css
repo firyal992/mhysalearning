@@ -1,0 +1,455 @@
+
+
+
+.teks h3{
+
+    margin-top: 20px;
+    font-weight: 600;
+    font-family: 'Bold Lato';
+    color: #223844;
+    font-size: 24px;
+    display:  flex;
+    align-items: center;
+    justify-content: center;
+}
+.text h3{
+
+    font-size: 24px;
+    color: #757575;
+    font-family: 'Lato';
+    display:  flex;
+    align-items: center;
+    justify-content: center;
+   
+    
+   
+}
+
+.single-blog:hover .blog-content::after {
+    transition: 0.4s;
+    opacity: 1;
+    top: 0px;
+}
+.blog-content p {
+    line-height: 28px;
+     transition: 0.4s;
+}
+.blog-content a h4:hover{
+    color:#E6922E;
+    transition: 0.4s;
+}
+.blog-meta .admin-type {
+    color: #757b82;
+    font-size: 14px;
+    font-weight: 400;
+    padding-right: 10px;
+}
+.blog-meta .second{
+  float: right;
+}
+
+.admin-type img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 2px solid #E6922E;
+    margin-right: 10px;
+}
+.single-blog {
+    position: relative;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+.blog-meta {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    align-items: center;
+    font-size: 18px;
+    font-family: 'Lato';
+}
+.single-blog .blog-title {
+  padding: 20px;
+  bottom: 20px;
+ 
+}
+.single-blog .blog-title h3 {
+  float: right;
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: #223844;
+  margin: 0;
+}
+.blog-btn {
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    transition: all 0.4s ease 0s;
+    border: 1px solid #E6922E;
+    background: #E6922E;
+    padding: 7px 24px;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+.blog-btn:hover{
+    color: #E6922E;
+    background: transparent;
+    transition: all 0.4s ease 0s;
+}
+.blog .commentbg{
+  float: left;
+}
+.blog .dua{
+  margin-left: 20px;
+}
+
+/*-------- end article*/
+
+/*--ratingg--*/
+/*----------------------------------------*/
+/* 4. Count Area
+/*----------------------------------------*/
+.counter-area{
+    margin-left: 20px;
+    padding: 15px 0 20px;
+    position: relative;
+    overflow: hidden;
+ }
+ .counter-inner {
+     background: #f5f5f5;
+     padding: 100px 30px 100px 70px;
+ }
+ .fun-title h3 {
+     color: #f5f5f5;
+     font-size: 32px;
+     line-height: 42px;
+     margin-bottom: 0px;
+     font-weight: 600;
+ }
+ .fun-content {
+     display: block;
+ }
+ .fun_text i {
+     font-size: 44px;
+     color: #fff;
+     background: #E6922E;
+     margin-bottom: 20px;
+     display: inline-block;
+     line-height: 78px;
+     font-weight: 100;
+     width: 80px;
+     height: 80px;
+     border-radius: 50%;
+ }
+ .fun_text {
+     text-align: center;
+     box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+     padding: 40px 30px;
+     position: relative;
+     margin-bottom: 30px;
+ }
+ .fun_text::after {
+     position: absolute;
+     content: "";
+     left: 0;
+     bottom: 0px;
+     width: 100%;
+     height: 1px;
+     background: #E6922E;
+ }
+ .fun_text .counter {
+     color: #444;
+     display: block;
+     font-size: 20px;
+     font-weight: bold;
+     padding-bottom: 10px;
+ }
+ .fun_text h4 {
+     margin-bottom: 0px;
+ }
+ .fun_text > h5 {
+     color: #444;
+     font-size: 14px;
+     font-weight: 600;
+     text-transform: uppercase;
+     margin-bottom: 0;
+     line-height: 20px;
+ }
+
+.member{
+
+
+  width: 550px;
+    
+  box-shadow: 0 0 30px rgba(31, 45, 61, 0.125);
+  border-radius: 5px;
+  border-style: none;
+}
+
+.member.card-body .media-avatar {
+    width: 70px;
+    height: 70px;
+    border-radius: 10%;
+    overflow: hidden;
+  }
+  .member .card-body .media-avatar.media-body {
+    padding-left: 8px;
+    margin-bottom: 5px;
+  }
+  .member .card-body .isian{
+      margin-left: 10px;
+  }
+  .Review h2{
+
+    
+    
+
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-family: 'Bold Lato';
+    color: #223844;
+    font-size: 30px;
+
+  }
+  
+
+/*--end rating--*/
+
+
+/* Blog Sidebar
+-------------------*/
+
+.blog-aside .widget {
+    margin-top: 25px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #fff;
+    box-shadow: 0 0 30px rgba(31, 45, 61, 0.125);
+    
+    overflow: hidden;
+    background: #ffffff;
+    
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .card-details {
+
+    padding: 20px;
+    
+  }
+  
+  
+  .card-details .trip-informations{
+    margin-top: 0px;
+  }
+ 
+  .card-details .trip-informations .trip1 th {
+
+    margin-top: 10px;
+    color: #223844;
+    
+    font-family: 'Lato';
+  }
+  
+  .card-details .trip-informations .trip1 td {
+
+    font-family: 'Lato';
+   
+    color: #223844;
+  }
+  
+  
+  
+  .card-details h1 {
+    font-size: 26px;
+  }
+  
+  .card-details h2 {
+    font-size: 20px;
+  }
+  
+  .card-details p {
+    font-size: 18px;
+    color: #b1b1b1;
+  }
+  
+
+  .blog-aside .widget-body {
+    padding: 15px;
+  }
+  .blog-aside .widget-title {
+    padding: 20px;
+    border-bottom: 2px solid #92B5C8;
+  }
+  .blog-aside .widget-title h3 {
+    font-size: 30px;
+    font-weight: 650;
+    color: #223844;
+    margin: 0;
+  }
+  .blog-aside .widget-harga {
+      padding: 20px;
+      border-bottom: 1px solid #92B5C8;
+    }
+  .blog-aside .widget-harga h3 {
+      font-size: 24px;
+      font-weight: 700;
+      color: #223844;
+      margin: 0;
+  }
+
+  .blog-aside .widget-title2 {
+  
+   
+    padding: 30px;
+    
+  }
+  .blog-aside .widget-title2 h3 {
+    font-size: 20px;
+    font-weight: 650px;
+    color: #223844;
+    margin: 0;
+    font-family: 'bold Lato';
+  }
+  .blog-aside .widget-title2 ul{
+    font-family: 'Lato';
+    font-size: 18px;
+    color: #223844;
+  }
+ 
+
+  .blog-aside .cs1 h3{
+    font-size: 20px;
+    font-family: 'Bold Lato';
+    font-weight: 650px;
+    color: #223844;
+  }
+
+  .blog-aside .cs1 h3{
+    font-size: 18px;
+    font-family: 'Lato';
+    color: #223844;
+  
+  }
+  .blog-aside .widget-square1 {
+
+    background-color: #C4C4C4;
+    height: 30px;
+    width: 50%;
+    border-radius: 5px;
+    margin-left:20px;
+    align-items: center;
+    justify-content:center;
+    display: flex;
+    color: #000;
+   
+
+
+  }
+  .blog-aside .widget-square2 {
+
+    background-color: #223844;
+    height: 22px;
+    width: 30%;
+    border-radius: 5px;
+    top: 3px;
+    margin-left:20px;
+    align-items: center;
+    justify-content:center;
+    display: flex;
+    color:#ffff
+   
+    
+  
+
+
+  }
+  .blog-aside .widget-square2 a {
+
+  
+    padding: 5px;
+    align-items: center;
+    justify-content:center;
+    display: flex;
+    margin-top: 10px;
+    font-family: 'Lato';
+    font-size: 13px;
+  
+   
+    
+  
+
+
+  }
+  
+  
+  .tef a{
+    color: #1A1866;
+    font-size: 20px;
+    font-weight: 300px;
+    font-family: 'Lato';
+    display:  flex;
+    align-items: center;
+    justify-content: center;
+    
+
+  }
+  
+  
+  .emoney{
+    float: left;
+  }
+  .gopay{
+    margin-left: 10px;
+  }
+  
+  
+
+  .button{
+
+    margin-top: 60px;
+
+    margin-bottom: 30px;
+    margin-left: 50px;
+    width: 80%;
+    height: 40px;
+    border-radius: 10px;
+    
+    background-color: #C7C7C7;
+    font-family: 'Lato';
+    font-size: 18px;
+    color: #ffffff;
+    display:  flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+ }
+ .button_icon_1{
+    width: 18px;
+    color: #fff;
+}
+  
+  
+
+  
+.project-info-box p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #d5dadb;
+}
+p {
+    font-family: "Barlow", sans-serif !important;
+    font-weight: 300;
+    font-size: 1rem;
+    color: #686c6d;
+    letter-spacing: 0.03rem;
+    margin-bottom: 10px;
+}
+b, strong {
+    font-weight: 700 !important;
+}

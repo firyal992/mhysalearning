@@ -1,0 +1,102 @@
+body{margin-top:20px;}
+
+.chat-online {
+    color: #34ce57
+}
+
+.chat-offline {
+    color: #e4606d
+}
+
+.chat-messages {
+    display: flex;
+    flex-direction: column;
+    max-height: 800px;
+    overflow: auto;
+    margin-right: 0;
+}
+.chat-messages::-webkit-scrollbar {  
+    width: 8px;  
+}  
+.chat-messages::-webkit-scrollbar-track {  
+    background-color: #E7E7E7
+}  
+.chat-messages::-webkit-scrollbar-thumb {  
+   background-color: #263238;
+border: 1px solid rgba(92, 92, 92, 0.5);
+border-radius: 10px;
+}  
+.chat-messages::-webkit-scrollbar-thumb:hover {  
+    background-color: #000;  
+	
+}  
+
+
+
+.chat-message-left,
+.chat-message-right {
+    display: flex;
+    flex-shrink: 0
+}
+
+.chat-message-left {
+    margin-right: auto
+}
+
+.chat-message-right {
+    flex-direction: row-reverse;
+    margin-left: auto
+}
+.py-3 {
+    padding-top: 1rem!important;
+    padding-bottom: 1rem!important;
+}
+.px-4 {
+    padding-right: 1.5rem!important;
+    padding-left: 1.5rem!important;
+}
+.flex-grow-0 {
+    flex-grow: 0!important;
+}
+.border-top {
+    border-top: 1px solid #dee2e6!important;
+}
+.profile-timeline{
+    font-family: 'Lato';
+    font-size: 14px;
+    color: #223844;
+}
+.profile-timeline ul li .timeline-item-header p {
+    margin: 0;
+    font-family: 'Lato';
+    font-size: 14px;
+    color: #223844;
+    font-weight: 600px;
+}
+.profile-timeline ul li .timeline-item-header p span {
+    margin: 0;
+    font-family: 'Lato';
+    font-size: 14px;
+    color: #223844;
+    font-weight: normal;
+}
+
+.bottom-chat{
+    background-color: #a3a6c4;
+}
+.footerr {
+    background-color: #bec3cc;
+    padding: 25px;
+    height: auto;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    border-right: 1px solid #E5E8EF;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.btn{
+    width: 28px;
+    height: auto;
+}

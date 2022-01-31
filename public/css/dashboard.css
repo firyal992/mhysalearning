@@ -1,0 +1,115 @@
+h3 {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #223844;
+}
+
+.card {
+    width: 110%;
+}
+
+.btn-card {
+    height: 30px;
+
+    background: #263238;
+    border-radius: 12px;
+
+    font-family: Lato;
+    font-weight: bold;
+    font-size: 14px;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btn-card:hover {
+    background: #f1ca6d;
+    text-decoration: none;
+    color: #263238;
+}
+
+.reminder-box {
+    width: 50px;
+    height: 100px;
+
+    background: #263238;
+    border-radius: 12px;
+
+    padding: 3px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.reminder-title {
+    font-family: Lato;
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.reminder-details {
+    font-family: Lato;
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.breadcrumb .breadcrumb-item + .breadcrumb-item::before {
+    content: "›";
+}
+
+.nav-pills .tab .nav-link:not(.active) {
+    background: #fff;
+    color: #223844;
+}
+
+.nav-pills .tab .nav-link:is(.active) {
+    background: rgba(38, 50, 56, 0.1);
+    color: #fab400;
+}
+
+.tab-content {
+    background: rgba(38, 50, 56, 0.1);
+    color: #365b6d;
+    padding-top: 50px;
+}
+
+.tab-content ol li {
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+
+::placeholder {
+    font-style: italic;
+}
+
+.posttest {
+    display: flex;
+    flex-direction: column;
+    max-height: 230px;
+    overflow: auto;
+    margin-right: 0;
+}
+.posttest::-webkit-scrollbar {  
+    width: 8px;  
+}  
+.posttest::-webkit-scrollbar-track {  
+    background-color: #E7E7E7
+}  
+.posttest::-webkit-scrollbar-thumb {  
+   background-color: #263238;
+border: 1px solid rgba(92, 92, 92, 0.5);
+border-radius: 10px;
+}  
+.posttest::-webkit-scrollbar-thumb:hover {  
+    background-color: #000;  
+	
+}  
+

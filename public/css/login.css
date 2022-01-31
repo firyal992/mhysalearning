@@ -1,0 +1,62 @@
+.card {
+    /* border: 1px solid #365B6D; */
+    border: none;
+}
+
+input[type=email],
+input[type=password] {
+    height: 55px;
+    background: #FFFFFF;
+    border: 1px solid #365B6D;
+    box-sizing: border-box;
+    border-radius: 12px;
+
+    font-family: Lato;
+    color: rgba(34, 56, 68, 0.5);
+}
+
+button[type=submit] {
+    width: 90%;
+    height: 70px;
+
+    background: #223844;
+    border-radius: 12px;
+    border: 1px solid #365B6D;
+
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+button[type=submit]:hover {
+    background: #f1ca6d;
+    border: 1px solid #f1ca6d;
+}
+
+.google-logo {
+    width: 26px;
+    height: 26px;
+    margin-right: 20px;
+}
+
+.google-btn {
+    width: 90%;
+    height: 50px;
+
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 18px;
+
+    color: #223844;
+    background-color: #ffff;
+}
+
+.google-btn:hover {
+    background-color: #f1ca6d;
+    border: none;
+}

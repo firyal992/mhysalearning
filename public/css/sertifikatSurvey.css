@@ -1,0 +1,100 @@
+body{margin-top:20px;
+    background-color: #f7f7fc;
+    }
+    .card-subtitle, .card-title {
+        font-weight: 400;
+    }
+    .card-title {
+        font-size: .875rem;
+        color: #495057;
+    }
+    .card {
+        margin-bottom: 24px;
+        box-shadow: 0 0 0.875rem 0 rgba(33,37,41,.05);
+    }
+    .card {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #fff;
+        background-clip: initial;
+        border: 0 solid transparent;
+        border-radius: .25rem;
+    }
+    .card-body {
+        flex: 1 1 auto;
+        padding: 1.25rem;
+    }
+    .card-header:first-child {
+        border-radius: .25rem .25rem 0 0;
+    }
+    .card-header {
+        border-bottom-width: 1px;
+    }
+    .pb-0 {
+        padding-bottom: 0!important;
+    }
+    .card-header {
+        padding: 1rem 1.25rem;
+        margin-bottom: 0;
+        background-color: #fff;
+        border-bottom: 0 solid transparent;
+    }
+    .judul h4{
+        font-family: 'Lato';
+        font-size: 18px;
+        font-weight: 600px;
+
+    }
+    .buton{
+
+        margin-top: 20px;
+    
+        margin-bottom: 30px;
+        margin-left: 38px;
+        width: 150px;
+        height: 30px;
+        border-radius: 40px;
+        
+        background-color: #C7C7C7;
+        font-family: 'Lato';
+        font-size: 14px;
+        color: #ffffff;
+        display:  flex;
+        align-items: center;
+        justify-content: center;
+        
+        
+     }
+
+     .link1 {
+   
+        color: #fff;
+       width: 90px;
+       height: 40px;
+       margin-bottom: 10px;
+    
+       
+    }
+    
+    .link1:hover,
+    .link1:hover {
+        color: #92B5C8;
+    }
+
+    .link2 {
+   
+        color: #1A1866;
+       width: 90px;
+       height: 40px;
+       margin-bottom: 10px;
+    
+       
+    }
+    
+    .link2:hover,
+    .link2:hover {
+        color: #92B5C8;
+    }

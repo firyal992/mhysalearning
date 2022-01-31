@@ -1,0 +1,119 @@
+.speaker-box {
+    display: table-cell; 
+    vertical-align: middle; 
+    text-align: center;
+
+    width: 80%;
+    
+    margin-top: 100px;
+    border: 1px solid #f1ca6d;
+    padding: 30px;
+
+    background: #F4EAD8;
+    border: 1px solid #FFFFFF;
+    box-shadow: 10px 10px 10px 3px rgba(34, 56, 68, 0.1);
+    border-radius: 10px;
+}
+
+.speaker-img {
+    border-radius: 50%;
+    width: 150px;
+    
+    position: relative;
+    margin-top: -100px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.speaker-icon {
+    border-radius: 50%;
+    width: 100px;
+    
+    position: relative;
+    margin-top: -100px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.speaker-details h3{
+    font-family: Lato;
+    font-weight: bold;
+    font-size: 30px;
+
+    color: #2B4957;
+}
+
+.speaker-details h4 {
+    font-family: Lato;
+    font-size: 20px;
+
+    color: #A4778B;
+}
+
+.speaker-details p {
+    font-family: Lato;
+    font-size: 18px;
+
+    color: #646464;
+}
+
+.checked {
+    color: orange;
+}
+
+form {
+    padding: 5%;
+    width: 90%;
+}
+
+.modal-time {
+    font-family: Lato;
+    font-size: 18px;
+    color: #223844;
+
+    margin-bottom: 10px;
+}
+
+.modal-time i {
+    color: #f1ca6d;
+    margin-right: 8px;
+}
+
+.modal-body h5{
+    font-family: Lato;
+    font-size: 18px;
+    color: #223844;
+    margin-bottom: 10px;
+}
+
+.modal-description {
+    margin: 20px 20px 20px 20px;
+    padding: 5px;
+
+    border: 1px solid #646464;
+
+}
+
+.modal-description p{
+    padding: 10px;
+    font-family: Lato;
+    font-size: 18px;
+    color: #646464;
+}
+
+.modal-details {
+    margin: 10px 10px 10px 10px;
+    padding: 5px;
+}
+
+input[type="radio"]{
+    -webkit-appearance: none;
+}
+
+
+
+ input[type="radio"]:checked + label {
+	background-color: #18f98d;
+	color: #ffffff;
+	box-shadow: 0 15px 45px rgb(24,249,141,0.2);
+}
